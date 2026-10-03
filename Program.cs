@@ -18,6 +18,8 @@ namespace ATM_System
             Console.WriteLine("Нажмите Enter, чтобы вставить карту...");
             Console.ReadLine();
 
+            Console.WriteLine("Добро пожаловать в банкомат!");
+
             // 1. Обращение к модулю считывания карты
             CreditCardData sharedMemory = cardControl.ReadCardData();
 
