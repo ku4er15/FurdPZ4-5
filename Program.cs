@@ -10,6 +10,7 @@ namespace ATM_System
             Console.Title = "Подсистема обслуживания по кредитной карте в банкомате";
 
             // Инициализация модулей
+            // Инициализация модулей
             var cardControl = new CreditCardControlModule();
             var authModule = new AuthenticationModule();
             var processingModule = new ReceptionAndProcessingModule();
